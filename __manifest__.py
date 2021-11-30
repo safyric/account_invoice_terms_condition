@@ -12,6 +12,6 @@
     ],
     'data': [
         'views/res_config_settings.xml',
-        'views/account_invoice_template.xml',
+        'views/report_invoice.xml',
     ],
 }
