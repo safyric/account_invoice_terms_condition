@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="report_invoice_document" inherit_id="account.report_invoice_document">
-        <xpath expr="//t[@name='comment']" position="replace">
+        <xpath expr="//span[@t-field='o.comment']" position="before">
             <p t-if="o.comment" name="comment">
                 <p style="page-break-before:always;"/>
                 <h2>Terms &amp; Conditions</h2>
-                <t t-field="o.comment" style="font-size: 8px;"/>
             </p>
         </xpath>
     </template>
