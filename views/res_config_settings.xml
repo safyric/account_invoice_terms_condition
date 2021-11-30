@@ -18,7 +18,7 @@
                         </div>
                         <div class="content-group" attrs="{'invisible': [('use_invoice_comment','=',False)]}">
                             <div class="mt16">
-                                <field name="default_comment" placeholder="Insert your terms &amp; conditions here..."/>
+                                <field name="invoice_comment" placeholder="Insert your terms &amp; conditions here..."/>
                             </div>
                         </div>
                     </div>
