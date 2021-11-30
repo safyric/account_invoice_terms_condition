@@ -2,10 +2,8 @@
 <odoo>
     <template id="report_invoice_document" inherit_id="account.report_invoice_document">
         <xpath expr="//span[@t-field='o.comment']" position="before">
-            <p t-if="o.comment" name="comment">
-                <p style="page-break-before:always;"/>
-                <h2>Terms &amp; Conditions</h2>
-            </p>
+            <p style="page-break-before:always;"/>
+            <h2>Terms &amp; Conditions</h2>
         </xpath>
     </template>
 </odoo>
