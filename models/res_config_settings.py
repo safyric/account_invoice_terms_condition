@@ -4,12 +4,12 @@ class ResConfigSettings(models.TransientModel):
 
     _inherit = 'res.config.settings'
 
-    inivoice_comment = fields.Html(
+    invoice_comment = fields.Html(
         related='company_id.invoice_comment',
         string="Invoice Terms & Conditions",
         default_model="account.invoice",
         readonly=False)
 
-    use_iniivoice_comment = fields.Boolean(
+    use_invoice_comment = fields.Boolean(
         string='Use Invoice Default Terms & Conditions',
         config_parameter='account.use_invoice_comment')
