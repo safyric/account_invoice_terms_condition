@@ -10,6 +10,6 @@ class ResConfigSettings(models.TransientModel):
         default_model="account.invoice",
         readonly=False)
 
-    use_invoice_comment = fields.Boolean(
+    use_iniivoice_comment = fields.Boolean(
         string='Use Invoice Default Terms & Conditions',
-        config_parameter='account.comment')
+        config_parameter='account.use_invoice_comment')
