@@ -13,4 +13,5 @@
         'views/res_config_settings.xml',
         'views/report_invoice.xml',
     ],
+    'installable': True,
 }
