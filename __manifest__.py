@@ -6,7 +6,6 @@
     'license': 'AGPL-3',
     'author': 'Safyric Co., Ltd.',
     'website': 'https://www.safyric.com',
-    'images': ['static/description/banner.png'],
     'depends': [
         'account',
     ],
